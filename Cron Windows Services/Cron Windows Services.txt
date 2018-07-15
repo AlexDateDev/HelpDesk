@@ -1,0 +1,9 @@
+; ----------------------------------------------------------
+; Título:    Cron Windows Services
+;
+; Fecha:     02/07/2016
+; Autor:    Alex Solé
+; ----------------------------------------------------------
+
+WORD:Cron Windows Service.doc
+d:\Dropbox\Soft\DTT\DTT.Tips\C# - How To\Cron Windows Services\

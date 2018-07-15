@@ -1,0 +1,63 @@
+; -----------------------------------------------------------------------------
+;  Title: Comandos Nuget
+;
+;  Date : 29/10/2011
+;  By   : Alex Sole
+; -----------------------------------------------------------------------------
+
+// Mostrar l os paquetes instalados
+PM> get-package
+
+// Mostrar todos los paquetes fintrados
+PM> Get-package -ListAvailable -Filter jQuery
+
+// Instalar pakete
+PM> Install-Package jQuery.UI.Combined -version 1.10
+
+// Desinstalar pakete
+PM> Uninstall-Package jQuery.UI.Combined
+
+// Mirar las actualizaciones disponibles para los paquetes instalados
+PM> get-package -Updates
+
+// Actualizar un paquete. Cuidado. Instala la útlima version
+PM> update-package jQuery
+
+En todos los proyectos de una solucion
+Get-Project -All | install-Package entityframework -version 5.0.0
+Get-Project Mvc* | Install-Package SomePackage
+Get-Project SomeProject | Install-Package SomePackage
+
+// Reinstalar
+Get-Project -All | Update-Package –reinstall entityframework
+Get-Project 01.Asurbrok.Application | Update-Package –reinstall entityframework
+
+// Instalar entityframework en una solución
+Get-Project Help | install-Package entityframework -version 6.0.0
+Get-Project 02.Asurbork.Bussines | install-Package entityframework -version 6.0.0
+Get-Project 04.Asurbrok.Entities  | install-Package entityframework -version 4.3.1
+
+// Desinstalar
+Get-Project 02.Asurbork.Bussines | uninstall-Package entityframework
+Get-Project 03.Asurbrok.Provider | uninstall-Package entityframework
+
+
+Install-Package EntityFramework -Version 4.1.10715
+
+Get-Project Entities | Install-Package EntityFramework -Version 4.1.10715
+
+Template Atexsa
+----------------
+Install-Package structuremap -version 2.6.4.1
+Install-Package jquery -version 1.7.2
+Install-Package jQuery.UI.Combined -version 1.8.20.1
+Install-Package jQuery.Validation -version 1.9.0.1
+Install-Package Microsoft.AspNet.Web.Optimization -version 1.0.0
+Install-Package Microsoft.jQuery.Unobtrusive.Ajax -version 2.0.20710.0
+Install-Package Microsoft.jQuery.Unobtrusive.Validation -version 2.0.20710.0
+
+Install-Package jquery -version 1.8.3
+
+
+Get-Project 01.Asurbrok.Application | Install-Package structuremap -version 2.6.4.1
+

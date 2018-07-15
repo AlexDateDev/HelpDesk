@@ -1,0 +1,13 @@
+; ----------------------------------------------------------
+; Título:    Optimizar C#
+;
+; Fecha:     02/07/2016
+; Autor:    Alex Solé
+; ----------------------------------------------------------
+
+• Utilizar for en lugar de foreach
+• Usar arrays en lugar de List
+• Los bucles for de max a 0 (decreciendo)
+• usar string.Empty en lugar de "".
+• no poner return en los if, ponerlo al final
+• Concatenar con StringBuilder en lugar de +. Utilizar constructor

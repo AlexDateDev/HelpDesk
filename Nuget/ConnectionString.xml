@@ -1,0 +1,13 @@
+; -----------------------------------------------------------------------------
+;                                       DTT 2.2.1.3  (c)2018 FSL - FreeSoftLand
+;  Title: ConnectionString
+;
+;  Date : 27/01/2018
+;  By   : None
+; -----------------------------------------------------------------------------
+
+<connectionStrings>
+    <add name="CodeFirstConnection"
+        connectionString="Data Source=TELEMACO\SQL2014EXPRESS;Initial Catalog=CodeFirst;User ID=sa;Password=malevaje"
+        providerName="System.Data.SqlClient" />
+  </connectionStrings>

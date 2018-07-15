@@ -1,0 +1,15 @@
+; -----------------------------------------------------------------------------
+;                                       DTT 2.2.1.3  (c)2016 FSL - FreeSoftLand
+;  Title: Comprobar servidores de correo
+;
+;  Date : 22/06/2016
+;  By   : Alex Solé
+; -----------------------------------------------------------------------------
+
+NSLookup
+
+Comprobación de los servidores de correo.
+
+C:\>nslookup -q=mx caldiable.cat
+
+

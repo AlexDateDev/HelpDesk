@@ -1,0 +1,9 @@
+; -----------------------------------------------------------------------------
+;                                       DTT 2.2.1.3  (c)2016 FSL - FreeSoftLand
+;  Title: Redireccionar Http en IIS7
+;
+;  Date : 02/07/2016
+;  By   : Alex Solé
+; -----------------------------------------------------------------------------
+
+Documentos Word en d:\Dropbox\Soft\DTT\DTT.Tips\C# - How To\Redireccionar Http a Https\
